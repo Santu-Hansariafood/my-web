@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "firstName": "Santu",
+    "lastName": "De",
+    "mobile": "9064527639",
+    "password": "1234",
+    "bloodGroup": "B+",
+    "dateOfBirth": "1997-01-04",
+    "role": "Developer",
+    "email": "santude1997@gmail.com",
+    "profilePhoto": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "firstName": "Ankita",
+    "lastName": "De",
+    "mobile": "7908784485",
+    "password": "1234",
+    "bloodGroup": "O+",
+    "dateOfBirth": "2000-01-17",
+    "role": "Founder",
+    "email": "imankitade@gmail.com",
+    "profilePhoto": "https://via.placeholder.com/150"
+  }
+]

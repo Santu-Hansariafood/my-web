@@ -1,0 +1,110 @@
+[
+  {
+    "id": "register",
+    "label": "Register Employee",
+    "checked": false,
+    "route": "/register"
+  },
+  {
+    "id": "list-employee",
+    "label": "Employee List",
+    "checked": false,
+    "route": "/list-employee"
+  },
+  {
+    "id": "questions-typescript",
+    "label": "TypeScript",
+    "checked": false,
+    "route": "/questions-typescript"
+  },
+  {
+    "id": "questions-javascript",
+    "label": "JavaScript",
+    "checked": false,
+    "route": "/questions-javascript"
+  },
+  {
+    "id": "questions-html",
+    "label": "HTML",
+    "checked": false,
+    "route": "/questions-html"
+  },
+  {
+    "id": "questions-css",
+    "label": "CSS",
+    "checked": false,
+    "route": "/questions-css"
+  },
+  {
+    "id": "questions-angular",
+    "label": "Angular",
+    "checked": false,
+    "route": "/questions-angular"
+  },
+  {
+    "id": "questions-react",
+    "label": "React",
+    "checked": false,
+    "route": "/questions-react"
+  },
+  {
+    "id": "questions-node",
+    "label": "Node",
+    "checked": false,
+    "route": "/questions-node"
+  },
+  {
+    "id": "questions-mongodb",
+    "label": "MongoDB",
+    "checked": false,
+    "route": "/questions-mongodb"
+  },
+  {
+    "id": "questions-express",
+    "label": "Express",
+    "checked": false,
+    "route": "/questions-express"
+  },
+  {
+    "id": "questions-nextjs",
+    "label": "NextJs",
+    "checked": false,
+    "route": "/questions-nextjs"
+  },
+  {
+    "id": "questions-vuejs",
+    "label": "VueJS",
+    "checked": false,
+    "route": "/questions-vuejs"
+  },
+  {
+    "id": "questions-git",
+    "label": "Git",
+    "checked": false,
+    "route": "/questions-git"
+  },
+  {
+    "id": "questions-jira",
+    "label": "Jira",
+    "checked": false,
+    "route": "/questions-jira"
+  },
+  {
+    "id": "questions-mysql",
+    "label": "MySql",
+    "checked": false,
+    "route": "/questions-mysql"
+  },
+  {
+    "id": "questions-design",
+    "label": "Design",
+    "checked": false,
+    "route": "/questions-design"
+  },
+  {
+    "id": "list-question",
+    "label": "Question List",
+    "checked": false,
+    "route": "/list-question"
+  }
+]
