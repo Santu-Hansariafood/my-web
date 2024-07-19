@@ -15,7 +15,11 @@ const GitQuestion = () => {
         <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">
           Create a GIT Question
         </h2>
-        <QuestionForm selectedTopic="Git" handleBack={handleBack} />
+        <QuestionForm
+          selectedTopic="Git"
+          handleBack={handleBack}
+          apiEndpoint="https://example.com/api/git-questions"
+        />
       </div>
     </div>
   );

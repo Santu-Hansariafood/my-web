@@ -15,7 +15,11 @@ const GraphQLQuestion = () => {
         <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">
           Create a GraphQL Question
         </h2>
-        <QuestionForm selectedTopic="GraphQL" handleBack={handleBack} />
+        <QuestionForm
+          selectedTopic="GraphQL"
+          handleBack={handleBack}
+          apiEndpoint="https://example.com/api/graphql-questions"
+        />
       </div>
     </div>
   );

@@ -15,7 +15,11 @@ const ExpressQuestion = () => {
         <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">
           Create a ExpressJs Question
         </h2>
-        <QuestionForm selectedTopic="ExpressJS" handleBack={handleBack} />
+        <QuestionForm
+          selectedTopic="ExpressJS"
+          handleBack={handleBack}
+          apiEndpoint="https://example.com/api/expressjs-questions"
+        />
       </div>
     </div>
   );

@@ -15,7 +15,11 @@ const JavaScriptQuestion = () => {
         <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">
           Create a JavaScript Question
         </h2>
-        <QuestionForm selectedTopic="JavaScript" handleBack={handleBack} />
+        <QuestionForm
+          selectedTopic="JavaScript"
+          handleBack={handleBack}
+          apiEndpoint="https://example.com/api/javascript-questions"
+        />
       </div>
     </div>
   );

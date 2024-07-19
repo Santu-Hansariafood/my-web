@@ -15,7 +15,11 @@ const AngularQuestion = () => {
         <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">
           Create a Angular Question
         </h2>
-        <QuestionForm selectedTopic="Angular" handleBack={handleBack} />
+        <QuestionForm
+          selectedTopic="Angular"
+          handleBack={handleBack}
+          apiEndpoint="https://example.com/api/angular-questions"
+        />
       </div>
     </div>
   );

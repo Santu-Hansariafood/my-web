@@ -15,7 +15,11 @@ const MongoDBQuestion = () => {
         <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">
           Create a MongoDB Question
         </h2>
-        <QuestionForm selectedTopic="MongoDB" handleBack={handleBack} />
+        <QuestionForm
+          selectedTopic="MongoDB"
+          handleBack={handleBack}
+          apiEndpoint="https://example.com/api/mongodb-questions"
+        />
       </div>
     </div>
   );

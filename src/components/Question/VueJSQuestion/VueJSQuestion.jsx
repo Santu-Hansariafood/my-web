@@ -15,7 +15,11 @@ const VueJSQuestion = () => {
         <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">
           Create a VueJS Question
         </h2>
-        <QuestionForm selectedTopic="VueJS" handleBack={handleBack} />
+        <QuestionForm
+          selectedTopic="VueJS"
+          handleBack={handleBack}
+          apiEndpoint="https://example.com/api/vuejs-questions"
+        />
       </div>
     </div>
   );

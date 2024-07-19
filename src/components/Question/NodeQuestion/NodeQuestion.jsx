@@ -15,7 +15,7 @@ const NodeQuestion = () => {
         <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">
           Create a Node Question
         </h2>
-        <QuestionForm selectedTopic="NodeJs" handleBack={handleBack} />
+        <QuestionForm selectedTopic="NodeJs" handleBack={handleBack} apiEndpoint="https://example.com/api/nodejs-questions"/>
       </div>
     </div>
   );

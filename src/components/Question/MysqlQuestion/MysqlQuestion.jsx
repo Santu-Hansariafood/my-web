@@ -15,7 +15,11 @@ const MysqlQuestion = () => {
         <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">
           Create a MySql Question
         </h2>
-        <QuestionForm selectedTopic="MySql" handleBack={handleBack} />
+        <QuestionForm
+          selectedTopic="MySql"
+          handleBack={handleBack}
+          apiEndpoint="https://example.com/api/mysql-questions"
+        />
       </div>
     </div>
   );

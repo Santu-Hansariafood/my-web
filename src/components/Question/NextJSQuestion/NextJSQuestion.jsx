@@ -15,7 +15,7 @@ const NextJSQuestion = () => {
         <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">
           Create a Next.js Question
         </h2>
-        <QuestionForm selectedTopic="Next.js" handleBack={handleBack} />
+        <QuestionForm selectedTopic="Next.js" handleBack={handleBack} apiEndpoint="https://example.com/api/nextjs-questions"/>
       </div>
     </div>
   );

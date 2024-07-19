@@ -15,7 +15,11 @@ const DesignQuestion = () => {
         <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">
           Create a Design Question
         </h2>
-        <QuestionForm selectedTopic="Design" handleBack={handleBack} />
+        <QuestionForm
+          selectedTopic="Design"
+          handleBack={handleBack}
+          apiEndpoint="https://example.com/api/design-questions"
+        />
       </div>
     </div>
   );

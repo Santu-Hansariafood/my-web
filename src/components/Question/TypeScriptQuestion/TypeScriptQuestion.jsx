@@ -15,7 +15,11 @@ const TypeScriptQuestion = () => {
         <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">
           Create a TypeScript Question
         </h2>
-        <QuestionForm selectedTopic="TypeScript" handleBack={handleBack} />
+        <QuestionForm
+          selectedTopic="TypeScript"
+          handleBack={handleBack}
+          apiEndpoint="https://example.com/api/typescript-questions"
+        />
       </div>
     </div>
   );
