@@ -9,21 +9,21 @@ import WorkDetails from "./components/WorkDetails/WorkDetails";
 import Register from "./components/Register/Register";
 import RegisterEmployee from "./components/RegisterEmployee/RegisterEmployee";
 import DisplayQuestion from "./components/DisplayQuestion/DisplayQuestion";
-import TypeScriptQuestion from "./components/Question/TypeScriptQuestion/TypeScriptQuestion";
-import ReactQuestion from "./components/Question/ReactQuestion/ReactQuestion";
-import JavaScriptQuestion from "./components/Question/JavaScriptQuestion/JavaScriptQuestion";
-import HTMLQuestion from "./components/Question/HTMLQuestion/HTMLQuestion";
-import CSSQuestion from "./components/Question/CSSQuestion/CSSQuestion";
-import AngularQuestion from "./components/Question/AngularQuestion/AngularQuestion";
-import NodeQuestion from "./components/Question/NodeQuestion/NodeQuestion";
-import ExpressQuestion from "./components/Question/ExpressQuestion/ExpressQuestion";
-import MongoDBQuestion from "./components/Question/MongoDBQuestion/MongoDBQuestion";
-import JiraQuestion from "./components/Question/JiraQuestion/JiraQuestion";
-import GitQuestion from "./components/Question/GitQuestion/GitQuestion";
-import DesignQuestion from "./components/Question/DesignQuestion/DesignQuestion";
-import NextJSQuestion from "./components/Question/NextJSQuestion/NextJSQuestion";
-import VueJSQuestion from "./components/Question/VueJSQuestion/VueJSQuestion";
-import MysqlQuestion from "./components/Question/MysqlQuestion/MysqlQuestion";
+import TypeScriptQuestion from "./components/Question/SubQuestion/TypeScriptQuestion/TypeScriptQuestion";
+import ReactQuestion from "./components/Question/SubQuestion/ReactQuestion/ReactQuestion";
+import JavaScriptQuestion from "./components/Question/SubQuestion/JavaScriptQuestion/JavaScriptQuestion";
+import HTMLQuestion from "./components/Question/SubQuestion/HTMLQuestion/HTMLQuestion";
+import CSSQuestion from "./components/Question/SubQuestion/CSSQuestion/CSSQuestion";
+import AngularQuestion from "./components/Question/SubQuestion/AngularQuestion/AngularQuestion";
+import NodeQuestion from "./components/Question/SubQuestion/NodeQuestion/NodeQuestion";
+import ExpressQuestion from "./components/Question/SubQuestion/ExpressQuestion/ExpressQuestion";
+import MongoDBQuestion from "./components/Question/SubQuestion/MongoDBQuestion/MongoDBQuestion";
+import JiraQuestion from "./components/Question/SubQuestion/JiraQuestion/JiraQuestion";
+import GitQuestion from "./components/Question/SubQuestion/GitQuestion/GitQuestion";
+import DesignQuestion from "./components/Question/SubQuestion/DesignQuestion/DesignQuestion";
+import NextJSQuestion from "./components/Question/SubQuestion/NextJSQuestion/NextJSQuestion";
+import VueJSQuestion from "./components/Question/SubQuestion/VueJSQuestion/VueJSQuestion";
+import MysqlQuestion from "./components/Question/SubQuestion/MysqlQuestion/MysqlQuestion";
 const App = () => {
   return (
     <AuthProvider>
