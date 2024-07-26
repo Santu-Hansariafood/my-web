@@ -24,6 +24,7 @@ import DesignQuestion from "./components/Question/SubQuestion/DesignQuestion/Des
 import NextJSQuestion from "./components/Question/SubQuestion/NextJSQuestion/NextJSQuestion";
 import VueJSQuestion from "./components/Question/SubQuestion/VueJSQuestion/VueJSQuestion";
 import MysqlQuestion from "./components/Question/SubQuestion/MysqlQuestion/MysqlQuestion";
+import QuestionTable from "./components/Answer/QuestionTable";
 const App = () => {
   return (
     <AuthProvider>
@@ -191,6 +192,14 @@ const App = () => {
                 element={
                   <ProtectedRoute>
                     <DisplayQuestion />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/table-question"
+                element={
+                  <ProtectedRoute>
+                    <QuestionTable />
                   </ProtectedRoute>
                 }
               />

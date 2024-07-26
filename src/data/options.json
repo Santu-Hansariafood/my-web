@@ -106,5 +106,11 @@
     "label": "Question List",
     "checked": false,
     "route": "/list-question"
+  },
+  {
+    "id": "table-question",
+    "label": "Question List",
+    "checked": false,
+    "route": "/table-question"
   }
 ]

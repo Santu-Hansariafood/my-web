@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "questionTitle": "TypeScript Question",
+    "questionContent": "Type your TypeScript question here...",
+    "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+    "explanation": "Explanation for the correct answer",
+    "correctAnswer": "Option 1"
+  },
+  {
+    "id": 2,
+    "questionTitle": "JavaScript Question",
+    "questionContent": "Type your JavaScript question here...",
+    "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+    "explanation": "Explanation for the correct answer",
+    "correctAnswer": "Option 2"
+  }
+]
